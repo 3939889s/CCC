@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+<title>資訊學助homepage</title>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25686040-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<style type="text/css">
+	#inc{}
+	#downld{
+		position: absolute; 
+		width: 100px; 
+		height: 41px; 
+		z-index: 4; 
+		left: 430px; 
+		top: 180px;
+	}
+	#check{		position:absolute; top: 40px; left:-252px; height:0px; width:0px; 
+				background-color:#add8e6;
+				z-index: 10; 				
+				-webkit-transition-duration: 0.5s;
+				-moz-transition-duration: 0.5s;
+				-o-transition-duration: 0.5s;
+				transition-duration: 0.5s;				
+				-webkit-border-radius: 0 0 5px 0;
+				-moz-border-radius: 0 0 5px 0;
+				border-radius: 0 0 5px 0;
+	}
+	#ck{		
+		display:none;
+	}
+	#downld:hover #check{
+	
+				position:absolute; 
+				top: 43px;
+				height:110px; width:635px; 
+				
+			}
+	#downld:hover #ck{display:block;}
+</style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="FP_preloadImgs(/*url*/'button%20image/button11.gif', /*url*/'button%20image/button12.gif', /*url*/'button%20image/button1D.gif', /*url*/'button%20image/button1E.gif', /*url*/'images/button5.gif', /*url*/'images/button6.gif')">
+<!-- ImageReady Slices (資訊學助homepage.psd) -->
+
+<table id="___01" width="1025" height="865" border="0" cellpadding="0" cellspacing="0">
+	<tr>		
+		<td rowspan="3">
+			<div style="position: absolute; width: 108px; height: 40px; z-index: 5; left: 178px; top: 182px" id="layer5">
+				<a target="_center" href="firstPage.htm">
+				<img src="image/button4.gif" alt="最近消息" name="img4" width="95" height="40" border="0" id="img4"  onMouseDown="FP_swapImg(1,0,/*id*/'img4',/*url*/'image/button6.gif')" onMouseUp="FP_swapImg(0,0,/*id*/'img4',/*url*/'image/button5.gif')" onMouseOver="FP_swapImg(1,0,/*id*/'img4',/*url*/'image/button5.gif')" onMouseOut="FP_swapImg(0,0,/*id*/'img4',/*url*/'image/button4.gif')" fp-style="fp-btn: Metal Tab 6; fp-transparent: 1; fp-proportional: 0" fp-title="最近消息"></a></div>
+			
+		<td rowspan="3">
+			<div style="position: absolute; width: 117px; height: 41px; z-index: 3; left: 305px; top: 182px" id="layer3">
+				<a href="intro.htm" target="_center">
+				<img src="image/button10.gif" alt="成立宗旨" name="img2" width="100" height="40" border="0" id="img2" onMouseDown="FP_swapImg(1,0,/*id*/'img2',/*url*/'image/button12.gif')" onMouseUp="FP_swapImg(0,0,/*id*/'img2',/*url*/'image/button11.gif')" onMouseOver="FP_swapImg(1,0,/*id*/'img2',/*url*/'image/button11.gif')" onMouseOut="FP_swapImg(0,0,/*id*/'img2',/*url*/'image/button10.gif')" fp-style="fp-btn: Metal Tab 9; fp-transparent: 1; fp-proportional: 0" fp-title="成立宗旨"></a></div>
+		
+		<td rowspan="3">		
+			<div id="downld" style="position: absolute; width: 150px; height: 50px; z-index: 4; left: 430px; top: 180px" id="layer4">
+				<a target="_center">
+				<img src="image/button1C.gif" alt="資料下載" name="img3" width="94" height="42" border="0" id="img3"  onmouseover="document.getElementById('inc').value='';" onMouseDown="FP_swapImg(1,0,/*id*/'img3',/*url*/'image/button1E.gif')" onMouseUp="FP_swapImg(0,0,/*id*/'img3',/*url*/'image/button1D.gif')" onMouseOver="FP_swapImg(1,0,/*id*/'img3',/*url*/'image/button1D.gif')" onMouseOut="FP_swapImg(0,0,/*id*/'img3',/*url*/'image/button1C.gif')" fp-style="fp-btn: Metal Tab 2; fp-transparent: 1; fp-proportional: 0" fp-title="資料下載"></a>
+					<!--102.06.22modified--><div id="check" >
+						 <form name="form1" action="filecheck.php" method="post" target="_center" >
+							<div id="ck"><center><br><br>
+								請輸入培訓學員密碼登入
+								<input id="inc" type="password" name="id" size="15" autofocus="autofocus"  onmouseover="this.select();" onfocus="this.value = this.value;"/>
+								  
+								<input type="submit" value="確認" />	
+								</center>
+							</div>
+						 </form>
+						</div>
+				</div>			
+	</tr>
+	
+		
+		
+		
+	<div style="position: absolute; top:222px; left:178px; width: 100px; height: 100px; z-index: 1" id="layer1">
+		<iframe name="_center" style="width:650px; height:470px;"  src="firstPage.htm">
+		您的瀏覽器不支援內置框架或目前的設定為不顯示內置框架。</iframe>
+	</div>
+				
+				
+			
+
+</table>
+</body>
+</html>
